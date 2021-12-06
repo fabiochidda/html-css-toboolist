@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Toboolist</title>
 </head>
+
 <body>
+
     <header>
+        <!-- Header della pagina -->
         <div class="logo">
             <img src="Logo.png" alt="">
         </div>
@@ -17,15 +23,86 @@
         </div>
     </header>
 
+    
+
     <main>
+        <!-- Corpo centrale -->
         <div class="container">
-            <div class="buttons">
+
+            <!-- Tasti Add -->
+            <section>
+                <div class="buttons">
+                    <span id="addT">Add Task</span>
+                    <span id="addS">Add Section</span>
+                </div>
+            </section>
+
+            <section class="mainContent">
+            <!-- Task New Task -->    
+            <div class="task">
+                <section>
+                    <h2>&#9207; New Task</h2>
+                        <div class="task-content">
+                            <span class="checkmark">&#10003;</span>
+                            <span class="text-content">Quarterly Newsletter</span>
+                            <span class="cat-editorial">Editorial</span>
+                        </div>
+                </section>
             </div>
 
+            <!-- Task Today -->
+            <div class="task">
+                <h2>&#9207; Today</h2>
+                <div class="task-content">
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Recruiting blog post</span>
+                        <span class="cat-editorial">Editorial</span>
+                    </section>
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Mobile app launch</span>
+                        <span class="cat-q1goals">Q1 Goals</span>
+                    </section>
+                    <section>
+                        <span class="crossmark">&#x2717;</span>
+                        <span class="text-content">Interview John H.</span>
+                        <span class="cat-recruiting">Recruiting</span>
+                    </section>   
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Summit update to mobile storefronts</span>
+                        <span class="cat-mobile">Mobile</span>
+                    </section>
+                </div>  
+            </div>
+
+            <!-- Task Upcoming -->
+            <div class="task">
+                <h2>&#9207; Upcoming</h2>
+                <div class="task-content">
+                    <section>
+                        <span class="crossmark">&#x2717;</span>
+                        <span class="text-content">Schedule meeting with Alex</span>
+                    </section>
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Homepage refresh</span>
+                        <span class="cat-website">Website</span>
+                    </section>
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Onboard new Sales team members</span>
+                        <span class="cat-sales">Sales</span>
+                    </section>   
+                    <section>
+                        <span class="checkmark">&#10003;</span>
+                        <span class="text-content">Review editorial calendar</span>
+                        <span class="cat-editorial">Editorial</span>
+                    </section>
+                </div>    
+            </div>
         </div>
     </main>
-
-    <footer></footer>
-    
 </body>
 </html>

@@ -3,6 +3,7 @@
 }
 
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: #F6F8F9;
 }
 
@@ -10,8 +11,7 @@ header{
     background-color: white;
     height: 70px;
     width: 100%;
-    margin: auto;
-
+    margin: 0 auto;
 }
 
 header div{
@@ -30,6 +30,7 @@ header div{
 
 .container{
     background-color: white;
+    box-sizing: border-box;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 50px;
@@ -40,7 +41,133 @@ header div{
 .buttons{
     height: 50px;
     width: 100%;
+    box-sizing: border-box;
     background-color: white;
     border-bottom: solid #F6F8F9;
     border-radius: 10px 10px 0 0;
+    padding: 10px 60px 10px 60px;
+}
+
+#addT{
+    display: inline-block;
+    background-color: #47ADF1;
+    color: white;
+    border: 1px solid #47ADF1;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+#addS{
+    display: inline-block;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+.mainContent{
+    display: inline-block;
+    color: #444851;
+    padding: 15px 60px 10px 60px;
+}
+
+.task h2{
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 8px;
+}
+
+.task span{
+    margin-right: 15px;
+}
+
+.task-content section{
+    margin-bottom: 20px;
+}
+
+.text-content{
+    font-size: 23px;
+}
+
+.checkmark{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+}
+
+.crossmark{
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+}
+
+.cat-editorial{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #47ADF1;
+    color: white;
+    border: 1px solid #47ADF1;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+.cat-q1goals{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #9C72E4;
+    color: white;
+    border: 1px solid #9C72E4;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+.cat-recruiting{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #64C0A9;
+    color: white;
+    border: 1px solid #64C0A9;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+.cat-website{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #D863A1;
+    color: white;
+    border: 1px solid #D863A1;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+.cat-sales{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #B0C926;
+    color: white;
+    border: 1px solid #B0C926;
+    border-radius: 10px;
+    padding: 3px 8px;
+}
+
+.cat-mobile{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #F29E33;
+    color: white;
+    border: 1px solid #F29E33;
+    border-radius: 10px;
+    padding: 3px 8px;
 }

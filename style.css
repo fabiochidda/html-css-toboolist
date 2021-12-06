@@ -1,0 +1,46 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+
+header{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    margin: auto;
+
+}
+
+header div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.text-logo{
+    font-size: 25px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 800px;
+}
+
+.buttons{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid #F6F8F9;
+    border-radius: 10px 10px 0 0;
+}
